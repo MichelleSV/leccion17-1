@@ -1,7 +1,7 @@
-var numero = parseInt(prompt("Escribe un número"));
+var numero = parseInt(prompt("Escribe un número negativo o positivo"));
 if( numero < 0 ){
-	document.write("Tu número es negativo " + numero);
+    document.write("Negativo " + numero);
 	}
 else{
-    document.write("Tu número es positivo " + numero);
+    document.write("Positivo " + numero);
 };
